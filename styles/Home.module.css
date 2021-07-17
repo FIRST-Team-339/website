@@ -34,7 +34,7 @@
 }
 
 .title a {
-  color: #0070f3;
+  color: #fe6624;
   text-decoration: none;
 }
 
@@ -42,6 +42,7 @@
 .title a:focus,
 .title a:active {
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .title {
@@ -58,6 +59,11 @@
 .description {
   line-height: 1.5;
   font-size: 1.5rem;
+}
+
+.description a {
+  color: #fe6624;
+  text-decoration: none;
 }
 
 .code {
@@ -118,4 +124,8 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+.image {
+  border-radius: 15px;
 }

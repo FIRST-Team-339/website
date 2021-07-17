@@ -15,6 +15,7 @@ const SocialSection = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 `;
 
 const FooterSection = styled.div`
@@ -24,6 +25,7 @@ const FooterSection = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 `;
 
 const Footer = () => {

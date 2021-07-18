@@ -16,6 +16,8 @@ const SocialSection = styled.div`
   justify-content: center;
   align-items: center;
   width: 100%;
+  position: absolute;
+  top: 147%;
 `;
 
 const FooterSection = styled.div`
@@ -26,6 +28,8 @@ const FooterSection = styled.div`
   justify-content: center;
   align-items: center;
   width: 100%;
+  position: absolute;
+  top: 150%;
 `;
 
 const Footer = () => {

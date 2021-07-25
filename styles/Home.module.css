@@ -3,9 +3,6 @@
   padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
 }
 
 .main {
@@ -34,36 +31,50 @@
 }
 
 .title a {
-  color: #fe6624;
-  text-decoration: none;
+  color: #fe6624 !important;
+  text-decoration: none !important;
 }
 
 .title a:hover,
 .title a:focus,
 .title a:active {
-  text-decoration: underline;
-  cursor: pointer;
+  text-decoration: underline !important;
+  cursor: pointer !important;
 }
 
 .title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
+  margin: 0 !important;
+  line-height: 1.15 !important;
+  font-size: 4rem !important;
 }
 
 .title,
 .description {
-  text-align: center;
+  text-align: center !important;
 }
 
 .description {
-  line-height: 1.5;
-  font-size: 1.5rem;
+  line-height: 1.5 !important;
+  font-size: 1.5rem !important;
 }
 
 .description a {
-  color: #fe6624;
-  text-decoration: none;
+  color: #fe6624 !important;
+  text-decoration: none !important;
+}
+
+.involved {
+  text-align: center !important;
+}
+
+.involved {
+  line-height: 1.5 !important;
+  font-size: 1.5rem !important;
+}
+
+.involved a {
+  color: #fe6624 !important;
+  text-decoration: none !important;
 }
 
 .code {

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import Link from 'next/link';
+// import Link from 'next/link';
 // import Image from 'next/image';
 // import Logo from '../public/favicon.ico';
 import "@fortawesome/fontawesome-svg-core/styles.css"; // import Font Awesome CSS
@@ -24,31 +24,19 @@ const StyledLink = styled.a`
 
 const Navbar = () => {
   return (
-    <Nav>
-      <div>
-        <a href="/">
-          <StyledLink>Kilroy 339</StyledLink>
-        </a>
-      </div>
-      <div>
-        <a href="/">
-          <StyledLink>Home</StyledLink>
-        </a>
-        <a href="/history">
-          <StyledLink>History</StyledLink>
-        </a>
-        <a href="https://www.thebluealliance.com/team/339">
-          <StyledLink>Blue Alliance <FontAwesomeIcon icon={faExternalLinkAlt} size="xs"/></StyledLink>
-        </a>
-        <a href="/archive">
-          <StyledLink>Previous Years</StyledLink>
-        </a>
-        <a href="/contact">
-          <StyledLink>Contact</StyledLink>
-        </a>
-        <a href="/donate">
-          <StyledLink>Donate</StyledLink>
-        </a>
+    <Nav className="navbar navbar-dark navbar-expand-md">
+      <div className="container-fluid"><a className="navbar-brand" href="/"><strong>Kilroy Robotics</strong></a><button data-toggle="collapse" className="navbar-toggler" data-target="#navcol-1"><span className="sr-only">Toggle navigation</span><span className="navbar-toggler-icon"></span></button>
+        <div className="collapse navbar-collapse" id="navcol-1">
+          <ul className="navbar-nav">
+            <li><br></br></li>
+            <li className="nav-item"><a className="nav-link" href="/" id="navlist">Home</a></li>
+            <li className="nav-item"><a className="nav-link" href="/history" id="navlist">History</a></li>
+            <li className="nav-item"><a className="nav-link" href="https://www.thebluealliance.com/team/339" id="navlist">Blue Alliance <FontAwesomeIcon icon={faExternalLinkAlt} size="xs"/></a></li>
+            <li className="nav-item"><a className="nav-link" href="/archive" id="navlist">Previous Years</a></li>
+            <li className="nav-item"><a className="nav-link" href="/contact" id="navlist">Contact</a></li>
+            <li className="nav-item"><a className="nav-link" href="/donate" id="navlist">Donate</a></li>
+          </ul>
+        </div>
       </div>
     </Nav>
   );

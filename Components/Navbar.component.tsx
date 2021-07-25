@@ -31,7 +31,7 @@ const Navbar = () => {
             <li><br></br></li>
             <li className="nav-item"><a className="nav-link" href="/" id="navlist">Home</a></li>
             <li className="nav-item"><a className="nav-link" href="/history" id="navlist">History</a></li>
-            <li className="nav-item"><a className="nav-link" href="https://www.thebluealliance.com/team/339" id="navlist">Blue Alliance <FontAwesomeIcon icon={faExternalLinkAlt} size="xs"/></a></li>
+            <li className="nav-item"><a className="nav-link" href="https://www.thebluealliance.com/team/339" target="_blank" rel="noopener noreferrer" id="navlist">Blue Alliance <FontAwesomeIcon icon={faExternalLinkAlt} size="xs"/></a></li>
             <li className="nav-item"><a className="nav-link" href="/archive" id="navlist">Previous Years</a></li>
             <li className="nav-item"><a className="nav-link" href="/contact" id="navlist">Contact</a></li>
             <li className="nav-item"><a className="nav-link" href="/donate" id="navlist">Donate</a></li>

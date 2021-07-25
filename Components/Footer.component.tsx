@@ -32,7 +32,7 @@ const Footer = () => {
   return (
     <div>
       <SocialSection>
-        <h3><a role="button" href="https://twitter.com/kilroyrobotics"><FontAwesomeIcon icon={faTwitter} size="xs"/></a> <a role="button" href="https://facebook.com/kilroyrobotics"><FontAwesomeIcon icon={faFacebook} size="xs"/></a> <a role="button" href="https://github.com/FIRST-TEAM-339"><FontAwesomeIcon icon={faGithub} size="xs"/></a></h3>
+        <h3><a role="button" href="https://twitter.com/kilroyrobotics" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faTwitter} size="xs"/></a> <a role="button" href="https://facebook.com/kilroyrobotics" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faFacebook} size="xs"/></a> <a role="button" href="https://github.com/FIRST-TEAM-339" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} size="xs"/></a></h3>
       </SocialSection>
       <FooterSection>
         <p>FIRST Team 339 | <FontAwesomeIcon icon={faCopyright} size="xs"/> 2021 All Rights Reserved</p>

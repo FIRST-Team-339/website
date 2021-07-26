@@ -3,10 +3,18 @@ import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import thumbnail from '../public/thumbnail.png';
 
-function scrollIntoView(id: string){  
-  let element = document.getElementById(id);
+function scrollToElement(id: string, page: string | boolean)
+{  
+  if(!page)
+  {
+    let element = document.getElementById(id);
 
-  element.scrollIntoView(true);
+    return element.scrollIntoView(true);
+  }
+  else
+  {
+    window.location.href = `${page}#${id}`;
+  }
 }
 
 export default function Home() {
@@ -18,7 +26,7 @@ export default function Home() {
       <div className={styles.container}>
         <main className={styles.main}>
           <h1 className={styles.title}>
-            Who's Here? <a role="button" onClick={() => scrollIntoView('description')}>Kilroy is here!</a>
+            Who's Here? <a role="button" onClick={() => scrollToElement('description', false)}>Kilroy is here!</a>
           </h1>
           <br></br>
           <Image src={thumbnail} alt="Kilroy" className={styles.image} width="1013" height="582"/>

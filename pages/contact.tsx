@@ -60,24 +60,23 @@ export default function Home() {
             Who's Here? <a role="button" onClick={() => scrollToElement('description', false)}>Kilroy is here!</a>
           </h1>
           <br></br>
-          <Image src={thumbnail} alt="Kilroy" className={styles.image} width="1013" height="582"/>
           <div className={styles.description} id="description">
-            <h1><a> Contact Kilroy </a></h1>
+            <h1>Contact Kilroy</h1>
             <br></br>
             <form className={styles.main}>
               <p className={styles.inputGroup}>
-                <label htmlFor='name'>Name</label>
+                <label htmlFor='name' className={styles.inputLabel}>Name</label>
                 <input type='text' name='name' onChange={(e)=>{setName(e.target.value)}} className={styles.inputField}/>  
               </p>
               <p className={styles.inputGroup}>
-                <label htmlFor='email'>Email</label>
+                <label htmlFor='email' className={styles.inputLabel}>Email</label>
                 <input type='email' name='email' onChange={(e)=>{setEmail(e.target.value)}} className={styles.inputField}/>
               </p>
               <p className={styles.inputGroup}>
-                <label htmlFor='message'>Message</label>
+                <label htmlFor='message' className={styles.inputLabel}>Message</label>
                 <input type='text' name='message' onChange={(e)=>{setMessage(e.target.value)}} className={styles.inputField} id={styles.inputFieldMsg}/>
               </p>
-              <input type='submit' className={styles.submitButton} onClick={(e)=>{handleSubmit(e)}}/>
+              <input type='submit' className={styles.submitButton} onClick={(e)=>{handleSubmit(e);alert("Successfully submitted contact, we will respond as quick as we can.")}}/>
             </form>
           </div>
         </main>

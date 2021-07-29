@@ -23,14 +23,25 @@ export default function Home() {
   const [email, setEmail] = useState('')
   const [message, setMessage] = useState('')
   const [submitted, setSubmitted] = useState(false)
+  const [ip, setIp] = useState(false)
+
   function handleSubmit (e) { 
     e.preventDefault()
     console.log('Sending')
+
+    /*fetch('https://api.ipify.org/?format=json').then((results: any) => 
+    {
+      setIp(results.json().ip)
+      console.log(ip)
+    })*/
+
     let data = {
         name,
         email,
-        message
-      }
+        message,
+        ip
+    }
+
     fetch('/api/contact', {
         method: 'POST',
         headers: {
@@ -46,6 +57,7 @@ export default function Home() {
           setName('')
           setEmail('')
           setMessage('')
+          setIp(false)
         }
       })
   }
@@ -60,9 +72,8 @@ export default function Home() {
             Who's Here? <a role="button" onClick={() => scrollToElement('description', false)}>Kilroy is here!</a>
           </h1>
           <br></br>
-          <div className={styles.description} id="description">
+          <div className={styles.description} id="contact">
             <h1>Contact Kilroy</h1>
-            <br></br>
             <form className={styles.main}>
               <p className={styles.inputGroup}>
                 <label htmlFor='name' className={styles.inputLabel}>Name</label>

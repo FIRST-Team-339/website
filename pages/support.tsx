@@ -5,7 +5,7 @@ function Support() {
 export const getServerSideProps = async (context: { res: any }) => {
   const { res } = context;
   res.writeHead(301, {
-    location: "discord.gg/2v8SusrX8y",
+    location: "https://discord.gg/2v8SusrX8y",
   });
   res.end();
 };

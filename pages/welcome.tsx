@@ -7,7 +7,9 @@ const Welcome: NextPage = () => {
   return (
     <div className={styles.container}>
       <main className={styles.main}>
-        <h1 className={styles.title}>Welcome to Tyra, everything you need!</h1>
+        <h1 className={styles.title}>
+          Welcome to Tyra, all the services you need!
+        </h1>
 
         <p className={styles.description}>
           Get started by <Link href="/login">Logging in with Discord</Link>

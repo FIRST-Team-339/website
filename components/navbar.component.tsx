@@ -72,6 +72,13 @@ export default function Navbar() {
                 </a>
               </Link>
             </li>
+            <li className="nav-item">
+              <Link href="/support">
+                <a className="nav-link" id="navlist">
+                  Support
+                </a>
+              </Link>
+            </li>
           </ul>
         </div>
       </div>

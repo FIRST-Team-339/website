@@ -1,7 +1,7 @@
 @tailwind base;
 
 .h-screen-incl-comps {
-  height: 92vh;
+  height: 85vh;
 }
 
 /* Write your own custom base styles here */

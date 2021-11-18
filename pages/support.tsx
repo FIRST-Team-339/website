@@ -1,13 +1,13 @@
-function Support() {
-  return <p>You will be redirected shortly :^)</p>;
+function SupportServer() {
+  return;
 }
 
-export const getServerSideProps = async (context: { res: any }) => {
+export const getServerSideProps = async (context) => {
   const { res } = context;
   res.writeHead(301, {
     location: "https://discord.gg/2v8SusrX8y",
   });
-  res.end();
+  return;
 };
 
-export default Support;
+export default SupportServer;

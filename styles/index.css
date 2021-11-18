@@ -1,9 +1,16 @@
 @tailwind base;
 
-.h-screen-incl-comps {
-  height: 85vh;
+.vh-navbar {
+  height: 10vh;
 }
 
+.vh-default-main {
+  height: 90vh;
+}
+
+.vh-footer {
+  height: 15vh;
+}
 /* Write your own custom base styles here */
 
 /* Start purging... */

@@ -16,8 +16,8 @@ export default function Banner() {
             <p className="ml-3 font-medium text-white truncate">
               <span className="md:hidden">Beta testing soon!</span>
               <span className="hidden md:inline">
-                Big news! We're excited to announce that beta testing is opening
-                soon!
+                Big news! We are excited to announce that beta testing is
+                opening soon!
               </span>
             </p>
           </div>

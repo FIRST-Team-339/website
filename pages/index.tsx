@@ -1,5 +1,34 @@
 import type { NextPage } from "next";
-import Image from "next/image";
+import {
+  CollectionIcon,
+  LightningBoltIcon,
+  SupportIcon,
+} from "@heroicons/react/outline";
+import scrollId from "../scripts/scroll-id";
+
+const features = [
+  {
+    name: "Feature rich products & services",
+    pos: 0,
+    description:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
+    icon: CollectionIcon,
+  },
+  {
+    name: "Fast, reliable servers",
+    pos: 1,
+    description:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
+    icon: LightningBoltIcon,
+  },
+  {
+    name: "Great customer support",
+    pos: 0,
+    description:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
+    icon: SupportIcon,
+  },
+];
 
 const Home: NextPage = () => {
   return (
@@ -11,7 +40,10 @@ const Home: NextPage = () => {
               <span className="block xl:inline text-green-300 font-extrabold sm:text-1x1">
                 &uarr;
               </span>{" "}
-              <span className="block xl:inline">Upgrade your</span>{" "}
+              <span className="block xl:inline text-green-300 font-bold sm:text-1x1">
+                Upgrade
+              </span>{" "}
+              <span className="block xl:inline">your</span>{" "}
               <span className="block text-blue-500 xl:inline">
                 Discord Server
               </span>
@@ -23,8 +55,8 @@ const Home: NextPage = () => {
             <div className="mt-5 mx-auto sm:flex sm:justify-center md:mt-8">
               <div className="rounded-md shadow">
                 <a
-                  className="w-full flex items-center justify-center py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 md:py-4 md:text-lg md:px-10"
-                  href="/get-started"
+                  className="w-full flex items-center justify-center py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 md:py-4 md:text-lg md:px-10 hover:cursor-pointer"
+                  onClick={() => scrollId("features")}
                 >
                   Get started with Tyra
                 </a>
@@ -62,6 +94,39 @@ const Home: NextPage = () => {
             </p>
           </a>
         </div> */}
+
+        <div className="py-12" id="features">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="lg:text-center">
+              <h2 className="mt-2 text-4xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl md:text-5xl">
+                The better way to automate your groups & servers
+              </h2>
+            </div>
+
+            <div className="mt-10 h-full">
+              <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-1 md:gap-x-8 md:gap-y-10">
+                {features.map((feature) => (
+                  <div key={feature.name} className="relative">
+                    <dt>
+                      <div className="absolute flex items-center justify-center h-20 w-20 rounded-md bg-blue-600 text-white">
+                        <feature.icon
+                          className="h-12 w-12"
+                          aria-hidden="true"
+                        />
+                      </div>
+                      <p className="ml-24 text-2xl leading-6 font-bold text-gray-900">
+                        {feature.name}
+                      </p>
+                    </dt>
+                    <dd className="mt-3 ml-24 text-lg text-gray-500 max-">
+                      {feature.description}
+                    </dd>
+                  </div>
+                ))}
+              </dl>
+            </div>
+          </div>
+        </div>
       </main>
     </div>
   );

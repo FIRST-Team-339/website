@@ -237,7 +237,7 @@ export default function Navbar() {
                 Sponsors
             </a>
 
-            <a href="/frc" className="text-base font-medium text-gray-400 hover:text-gray-900">
+            <a href="/links/usfirst" className="text-base font-medium text-gray-400 hover:text-gray-900">
                 US FIRST
             </a>
 

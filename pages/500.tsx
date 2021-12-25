@@ -14,16 +14,13 @@ const Err500: NextPage = () => {
             <span className="font-bold text-5xl">Server Error</span>
             <br />
             <span className="text-3xl text-gray-400">
-              The server encountered a stinky error ):{" "}
+              The server encountered an error ):{" "}
             </span>
           </h2>
         </span>
         <div className="mt-5 mx-auto sm:flex sm:justify-center md:mt-8 p-5 m-10">
           <div className="rounded-md shadow flex items-center justify-center py-3 border border-transparent text-base font-medium text-white bg-blue-600 hover:bg-blue-700 md:py-4 md:text-lg md:px-10 m-5">
             <Link href="/">Go Home</Link>
-          </div>
-          <div className="rounded-md shadow flex items-center justify-center py-3 border border-transparent text-base font-medium text-blue-600 bg-white hover:bg-gray-300 md:py-4 md:text-lg md:px-10 m-5">
-            <Link href="/support">Get Support</Link>
           </div>
         </div>
       </main>

@@ -1,13 +1,14 @@
-function SupportServer() {
+function Link() {
   return;
 }
 
 export const getServerSideProps = async (context) => {
   const { res } = context;
   res.writeHead(301, {
-    location: "https://discord.gg/2v8SusrX8y",
+    location:
+      "https://www.thebluealliance.com/team/339",
   });
   return;
 };
 
-export default SupportServer;
+export default Link;

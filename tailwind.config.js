@@ -1,10 +1,16 @@
 module.exports = {
-  purge: ["./pages/**/*.tsx", "./styles/**/*.css"],
+  content: ["./pages/**/*.{html,js,ts,jsx,tsx}", "./components/**/*.{html,js,ts,jsx,tsx}"],
+  // purge: ["./pages/**/*.tsx", "./styles/**/*.css"],
   future: {
     removeDeprecatedGapUtilities: true,
     purgeLayersByDefault: true,
   },
   theme: {
+    extend: {
+      backgroundImage: {
+        'thumbnail-img': "url('/assets/img/thumbnail.png')"
+      }
+    },
     cursor: {
       auto: "auto",
       default: "default",

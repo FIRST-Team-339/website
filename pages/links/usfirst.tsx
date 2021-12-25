@@ -6,7 +6,7 @@ function Link() {
     const { res } = context;
     res.writeHead(301, {
       location:
-        "https://twitter.com/firstinspires.org",
+        "https://firstinspires.org",
     });
     return;
   };

@@ -86,7 +86,7 @@ function classNames(...classes) {
 
 export default function Navbar() {
   return (
-    <Popover className="relative bg-gray-800 drop-shadow-md w-screen z-10">
+    <Popover className="relative bg-gray-800 drop-shadow-md w-screen z-10" id="top">
       <div className="max-w-7xl mx-auto">
         <div className="flex justify-between items-center border-gray-100 py-6 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">

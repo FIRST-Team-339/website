@@ -106,7 +106,7 @@ export default function HomePage() {
                 <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">Sign up for our mailing list</h2>
                 <p className="flex flex-col gap-2 mt-4 text-lg leading-8 text-gray-300">
                   <span>Interested in hearing more about Kilroy Robotics? Subscribe to our mailing list to receive updates on our team and upcoming events.</span>
-                  <span>Interseted in joining the team as a student or mentor? Fill out a form <Link href="/get-involved" className="text-gray-50 font-medium hover:underline">here</Link>.</span>
+                  <span>Interested in joining the team as a student or mentor? Fill out a form <Link href="/get-involved" className="text-gray-50 font-medium hover:underline">here</Link>.</span>
                 </p>
               </div>
               <div>

@@ -10,7 +10,7 @@ export default function HomePage() {
       <Head>
         <title>Home — Kilroy Robotics</title>
         <meta name="title" content="Home — Kilroy Robotics" />
-        <meta name="description" content="Kilroy is a FIRST Robotics team dedicated to inspiring an interest in Science, Technology, Engineering, and Math among high school students in Stafford County, Virginia." />
+        <meta name="description" content="Kilroy is a FIRST™️ Robotics team dedicated to inspiring an interest in Science, Technology, Engineering, and Math among high school students in Stafford County, Virginia." />
         <meta property="og:image" content="/assets/img/homepage_banner.jpg" />
         <meta property="twitter:image" content="/assets/img/homepage_banner.jpg" />
       </Head>
@@ -60,7 +60,7 @@ export default function HomePage() {
             <div className="mx-auto max-w-2xl lg:mx-0">
               <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">About Kilroy</h2>
               <p className="mt-6 text-lg leading-8 text-gray-300">
-                Kilroy is a FIRST Robotics team dedicated to inspiring an interest in Science, Technology, Engineering, and Math among high school students in Stafford County, Virginia. In partnership with Stafford County Public Schools, Kilroy has been working towards this goal since 1999.
+                Kilroy is a FIRST™️ Robotics team dedicated to inspiring an interest in Science, Technology, Engineering, and Math among high school students in Stafford County, Virginia. In partnership with Stafford County Public Schools, Kilroy has been working towards this goal since 1999.
               </p>
             </div>
             <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
@@ -69,7 +69,7 @@ export default function HomePage() {
                     Learn More <span aria-hidden="true">&rarr;</span>
                 </Link>
                 <Link href="/first">
-                    What is <span className="italic">FIRST</span>? <span aria-hidden="true">&rarr;</span>
+                    What is <span className="italic">FIRST™️</span>? <span aria-hidden="true">&rarr;</span>
                 </Link>
                 <Link href="/history">
                     Team History <span aria-hidden="true">&rarr;</span>

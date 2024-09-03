@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <meta name="keywords" content="Kilroy,Robotics,FIRST,SCPS,First Robotics,Stafford,FRC" />
+        <meta name="keywords" content="Kilroy,Robotics,FIRST,FIRST™️,SCPS,First Robotics,Stafford,FRC" />
         <meta name="robots" content="index, follow" />
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="language" content="English" />

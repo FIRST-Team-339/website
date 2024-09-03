@@ -14,7 +14,7 @@ import KilroyTransparent from '@public/assets/img/kilroy_transparent.png'
 
 const links = [
     { label: "About", href: "/about" },
-    { label: "FIRST", href: "/first" },
+    { label: "FIRST™️", href: "/first" },
     { label: "History", href: "/history" },
     { label: "Get Involved", href: "/get-involved" },
 ]

@@ -7,7 +7,7 @@ export default function HistoryPage() {
       <Head>
         <title>History — Kilroy Robotics</title>
         <meta name="title" content="History — Kilroy Robotics" />
-        <meta name="description" content="Kilroy is a FIRST Robotics team dedicated to inspiring an interest in Science, Technology, Engineering, and Math among high school students in Stafford County, Virginia." />
+        <meta name="description" content="Kilroy is a FIRST™️ Robotics team dedicated to inspiring an interest in Science, Technology, Engineering, and Math among high school students in Stafford County, Virginia." />
         <meta property="og:image" content="/assets/img/history_page_bg.jpg" />
         <meta property="twitter:image" content="/assets/img/history_page_bg.jpg" />
       </Head>
@@ -30,13 +30,13 @@ export default function HistoryPage() {
             <div><Banner specialText="Creativity Award" text="2020 CHS District Haymarket VA Event"/></div>
             <div><Banner specialText="District Engineering Inspiration Award" text="2019 CHS District Oxon Hill MD Event"/></div>
             <div><Banner specialText="Quality Award" text="2019 CHS District Haymarket VA Event"/></div>
-            <div><Banner specialText="FIRST Dean's List Finalist Award" text="2018 FIRST Chesapeake District Championship"/></div>
-            <div><Banner specialText="Entrepreneur -ship Award" text="2018 FIRST Chesapeake District Championship"/></div>
+            <div><Banner specialText="FIRST™️ Dean's List Finalist Award" text="2018 FIRST™️ Chesapeake District Championship"/></div>
+            <div><Banner specialText="Entrepreneur -ship Award" text="2018 FIRST™️ Chesapeake District Championship"/></div>
             <div><Banner specialText="Team Spirit Award" text="2018 CHS District Central Maryland Event"/></div>
             <div><Banner specialText="District Engineering Inspiration Award" text="2018 CHS District Central Virginia Event"/></div>
             <div><Banner specialText="Innovation in Control Award" text="2017 CHS District Northern Maryland Event"/></div>
             <div><Banner specialText="District Engineering Inspiration Award" text="2017 CHS District Southwest Virginia Event"/></div>
-            <div><Banner specialText="Industrial Design Award" text="2016 FIRST Chesapeake District Championship"/></div>
+            <div><Banner specialText="Industrial Design Award" text="2016 FIRST™️ Chesapeake District Championship"/></div>
             <div><Banner specialText="Creativity Award" text="2016 CHS District Central Virginia Event"/></div>
             <div><Banner specialText="Entrepreneur -ship Award" text="2016 CHS District Southwest Virginia Event"/></div>
             <div><Banner specialText="Industrial Safety Award" text="2015 Virginia Regional"/></div>

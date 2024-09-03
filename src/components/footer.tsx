@@ -103,7 +103,7 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className="mt-16 border-t border-white/30 pt-8 sm:mt-20 lg:mt-24">
-                    <p className="text-xs leading-5 text-gray-200 text-center lg:text-left">Kilroy Robotics • <Link href="https://firstinspires.org" className="hover:underline"><span className="italic mr-0.5">FIRST</span> Inspires</Link></p>
+                    <p className="text-xs leading-5 text-gray-200 text-center lg:text-left">Kilroy Robotics • <Link href="https://firstinspires.org" className="hover:underline"><span className="italic mr-0.5">FIRST™️</span> Inspires</Link></p>
                 </div>
             </div>
         </footer>

@@ -9,7 +9,7 @@ export default function AboutPage() {
       <Head>
         <title>About — Kilroy Robotics</title>
         <meta name="title" content="About — Kilroy Robotics" />
-        <meta name="description" content="FIRST™️ was founded in 1989 to inspire young people to be science and technology leaders, by engaging them in exciting mentor-based programs that build science, engineering and technology skills, that inspire innovation, and that foster well-rounded life capabilities including self-confidence, communication, and leadership." />
+        <meta name="description" content="Learn more about the Kilroy Robotics Team! From foundings, to team structure, to what a year with kilroy is like, this page has it all." />
         <meta property="og:image" content="/assets/img/about_page_banner.jpg" />
         <meta property="twitter:image" content="/assets/img/about_page_banner.jpg" />
       </Head>

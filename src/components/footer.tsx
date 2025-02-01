@@ -24,26 +24,20 @@ const sponors = [
     {
         name: "Safford Kia of Fredericksburg",
         href: "https://www.saffordkia.com/",
-        logo: "https://dealerinspire-shared-assets.s3.amazonaws.com/public/logos/kia/kia-light-no-space-desktop-logo.png",
-        height: 16
-    },
-    {
-        name: "Fredericksburg PC Users Group",
-        href: "https://fpcug.us/",
-        logo: null,
+        logo: "/assets/img/kia_logo.png",
         height: 16
     },
     {
         name: "Lockheed Martin",
         href: "https://www.lockheedmartin.com/en-us/index.html",
         logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Lockheed_Martin_logo.svg/1280px-Lockheed_Martin_logo.svg.png",
-        height: 10
+        height: 8
     },
     {
-        name: "Night Vision Machine Shop",
-        href: "#",
-        logo: null,
-        height: 16
+        name: "CACI Inc.",
+        href: "https://www.caci.com/",
+        logo: "https://i.vimeocdn.com/player/497558?sig=c7fcecc506028dc3e57e78c3ce704399543cf09156b9524ac2be57ae6626a6fb&v=1",
+        height: 14
     },
     {
         name: "Stafford County Public Schools",
@@ -52,10 +46,16 @@ const sponors = [
         height: 14
     },
     {
-        name: "North Stafford High School",
-        href: "https://nshs.staffordschools.net/",
-        logo: "https://va01818723.schoolwires.net/cms/lib/VA01818723/Centricity/Template/GlobalAssets/images///logos/NSHS%20Logo.png",
-        height: 16
+        name: "Koniag Government Services",
+        href: "https://www.koniag-gs.com/",
+        logo: "https://www.koniag-gs.com/wp-content/uploads/2023/10/KGS_Logo2018_RGB-1.png",
+        height: 14
+    },
+    {
+        name: "This could be you!",
+        href: "/get-involved#sponsor",
+        logo: null,
+        height: 14
     },
 ]
 

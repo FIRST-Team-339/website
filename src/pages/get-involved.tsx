@@ -12,7 +12,7 @@ export default function GetInvolvedPage() {
         <meta property="og:image" content="/assets/img/get_involved_banner.jpg" />
         <meta property="twitter:image" content="/assets/img/get_involved_banner.jpg" />
       </Head>
-        <div className="mt-16 min-h-dvh">
+        <div className="mt-16 py-8">
             <div className="py-8 bg-[url('/assets/img/get_involved_banner_blurred.png')] bg-cover bg-top">
                 <span className="flex text-5xl font-bold justify-center text-gray-50 mb-4">Get Involved</span>
                 <div className="relative top-0 isolate overflow-hidden rounded-md ring-1 ring-white mx-2 sm:mx-6 md:mx-12 lg:mx-20 bg-gray-950/50 lg:bg-top bg-center py-16 sm:py-24 lg:py-32">
@@ -136,18 +136,18 @@ export default function GetInvolvedPage() {
                             </dl>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div className="py-8 bg-gray-900">
-                <span className="flex text-5xl font-bold justify-center text-gray-50 mb-4">Sponsors</span>
-                <div className="flex flex-col gap-y-8 mx-8 lg:mx-16">
-                    <p className="text-lg justify-center text-center font-bold text-gray-100">Our success quite simply depends on you!</p>
-                    <p className="text-lg justify-center text-gray-50">Kilroy Robotics is continuously seeking to expand our partnerships with-in the local community. Please consider making one or more of the following contributions: </p>
-                    <ul className="text-lg justify-center text-gray-50 list-disc ml-8">
-                        <li>Tax deductible Monetary Contribution</li>
-                        <li>Donations of materials, tools, and/or services</li>
-                        <li>Mentor support</li>
-                    </ul>
+                    <div className="pt-16">
+                        <span className="flex text-5xl font-bold justify-center text-gray-50 mb-4" id="sponsor">Sponsor</span>
+                        <div className="flex flex-col gap-y-8 mx-8 lg:mx-16">
+                            <p className="text-lg justify-center text-center font-bold text-gray-100">Our success quite simply depends on you!</p>
+                            <p className="text-lg justify-center text-gray-50">Kilroy Robotics is continuously seeking to expand our partnerships with-in the local community. Please consider making one or more of the following contributions: </p>
+                            <ul className="text-lg justify-center text-gray-50 list-disc ml-8">
+                                <li>Tax deductible Monetary Contribution</li>
+                                <li>Donations of materials, tools, and/or services</li>
+                                <li>Mentor support</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

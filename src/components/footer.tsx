@@ -46,9 +46,9 @@ const sponors = [
         height: 14
     },
     {
-        name: "Koniag Government Services",
-        href: "https://www.koniag-gs.com/",
-        logo: "https://www.koniag-gs.com/wp-content/uploads/2023/10/KGS_Logo2018_RGB-1.png",
+        name: "BAE Systems",
+        href: "https://www.baesystems.com/en",
+        logo: "https://www.baesystems.com/.resources/bae-systems-theme/img/logo-red.svg",
         height: 14
     },
     {
@@ -69,7 +69,7 @@ export default function Footer() {
                         <Image alt="Kilroy Robotics" src={KilroyTransparent} className="h-24 w-auto mx-auto lg:mx-0" />
                         <p className="leading-6 text-gray-100 text-center lg:text-left">Bringing the <span className="text-yellow-300 font-medium">"Sport for the Mind"</span> to Stafford County.</p>
                         <div className="flex gap-x-4 mt-4 justify-center lg:justify-start">
-                            <Link href="https://www.facebook.com/KilroyRobotics/" className="text-gray-200 hover:text-gray-300">
+                            <Link href="https://www.facebook.com/KilroyRobotics339/" className="text-gray-200 hover:text-gray-300">
                                 <span className="sr-only">Facebook</span>
                                 <Facebook />
                             </Link>

@@ -21,7 +21,7 @@ export default function GetInvolvedPage() {
                             <div className="max-w-xl lg:max-w-lg">
                                 <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">Student Interest Form</h2>
                                 <p className="flex flex-col gap-2 mt-4 text-lg leading-8 text-gray-300">
-                                    <span>Are you an SCPS student interested in the field of Robotics? Fill out an interest form today!</span>
+                                    <span>Are you an SCPS HEHEHEHA student interested in the field of Robotics? Fill out an interest form today!</span>
                                     <span>Interested in joining the team as a mentor? Fill out the mentor application <Link href="#mentor-application" className="text-gray-50 font-medium hover:underline">here</Link>.</span>
                                 </p>
                             </div>

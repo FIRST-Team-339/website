@@ -3,33 +3,33 @@ import Head from "next/head";
 import Link from "next/link";
 
 export default function GetInvolvedPage() {
-  return (
-    <>
-      <Head>
-        <title>Get Involved — Kilroy Robotics</title>
-        <meta name="title" content="Get Involved — Kilroy Robotics" />
-        <meta name="description" content="Learn how to get involved with the team, whether that be as a student member, mentor, or a team sponsor." />
-        <meta property="og:image" content="/assets/img/get_involved_banner.jpg" />
-        <meta property="twitter:image" content="/assets/img/get_involved_banner.jpg" />
-      </Head>
-        <div className="mt-16 py-8">
-            <div className="py-8 bg-[url('/assets/img/get_involved_banner_blurred.png')] bg-cover bg-top">
-                <span className="flex text-5xl font-bold justify-center text-gray-50 mb-4">Get Involved</span>
-                <div className="relative top-0 isolate overflow-hidden rounded-md ring-1 ring-white mx-2 sm:mx-6 md:mx-12 lg:mx-20 bg-gray-950/50 lg:bg-top bg-center py-16 sm:py-24 lg:py-32">
-                    <div className="mx-auto max-w-7xl px-6 lg:px-8">
-                        <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
-                            <div className="max-w-xl lg:max-w-lg">
-                                <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">Student Interest Form</h2>
-                                <p className="flex flex-col gap-2 mt-4 text-lg leading-8 text-gray-300">
-                                    <span>Are you an SCPS HEHEHEHA student interested in the field of Robotics? Fill out an interest form today!</span>
-                                    <span>Interested in joining the team as a mentor? Fill out the mentor application <Link href="#mentor-application" className="text-gray-50 font-medium hover:underline">here</Link>.</span>
-                                </p>
-                            </div>
-                            <form>
-                                <div className="flex flex-col gap-4">
-                                    <span className="font-semibold text-white">Student Interest Form coming soon, sorry for the inconvenience! In the meantime, you can email <Link className="hover:underline" href="mailto:contact@kilroyrobotics.us">contact@kilroyrobotics.us</Link> or <Link className="hover:underline" href="mailto:media@kilroyrobotics.us">media@kilroyrobotics.us</Link> if you are interested.</span>
-                                    {/* TODO: Complete Google Workspace  */}
-                                    {/* <label htmlFor="name" className="sr-only">
+    return (
+        <>
+            <Head>
+                <title>Get Involved — Kilroy Robotics</title>
+                <meta name="title" content="Get Involved — Kilroy Robotics" />
+                <meta name="description" content="Learn how to get involved with the team, whether that be as a student member, mentor, or a team sponsor." />
+                <meta property="og:image" content="/assets/img/get_involved_banner.jpg" />
+                <meta property="twitter:image" content="/assets/img/get_involved_banner.jpg" />
+            </Head>
+            <div className="mt-16 py-8">
+                <div className="py-8 bg-[url('/assets/img/get_involved_banner_blurred.png')] bg-cover bg-top">
+                    <span className="flex text-5xl font-bold justify-center text-gray-50 mb-4">Get Involved</span>
+                    <div className="relative top-0 isolate overflow-hidden rounded-md ring-1 ring-white mx-2 sm:mx-6 md:mx-12 lg:mx-20 bg-gray-950/50 lg:bg-top bg-center py-16 sm:py-24 lg:py-32">
+                        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+                            <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
+                                <div className="max-w-xl lg:max-w-lg">
+                                    <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">Student Interest Form</h2>
+                                    <p className="flex flex-col gap-2 mt-4 text-lg leading-8 text-gray-300">
+                                        <span>Are you an SCPS student interested in the field of Robotics? Fill out an interest form today!</span>
+                                        <span>Interested in joining the team as a mentor? Fill out the mentor application <Link href="#mentor-application" className="text-gray-50 font-medium hover:underline">here</Link>.</span>
+                                    </p>
+                                </div>
+                                <form>
+                                    <div className="flex flex-col gap-4">
+                                        <span className="font-semibold text-white">Student Interest Form coming soon, sorry for the inconvenience! In the meantime, you can email <Link className="hover:underline" href="mailto:contact@kilroyrobotics.us">contact@kilroyrobotics.us</Link> or <Link className="hover:underline" href="mailto:media@kilroyrobotics.us">media@kilroyrobotics.us</Link> if you are interested.</span>
+                                        {/* TODO: Complete Google Workspace  */}
+                                        {/* <label htmlFor="name" className="sr-only">
                                         Name
                                     </label>
                                     <input
@@ -112,45 +112,45 @@ export default function GetInvolvedPage() {
                                     >
                                         Submit
                                     </button> */}
-                                </div>
-                            </form>
-                            <dl className="grid grid-cols-1 gap-x-8 gap-y-10 lg:pt-2">
-                                <div className="flex flex-col items-start">
-                                    <div className="rounded-md bg-white/5 p-2 ring-1 ring-white/10">
-                                        <InboxStackIcon aria-hidden="true" className="h-6 w-6 text-white" />
                                     </div>
-                                    <dt className="mt-4 font-semibold text-gray-50">Non-SCPS Emails</dt>
-                                    <dd className="mt-2 leading-7 text-gray-200">
-                                        Due to certain restrictions, we ask that you use a non-SCPS email.
-                                    </dd>
-                                </div>
-                                <div className="flex flex-col items-start">
-                                    <div className="rounded-md bg-white/5 p-2 ring-1 ring-white/10">
-                                        <HandRaisedIcon aria-hidden="true" className="h-6 w-6 text-white" />
+                                </form>
+                                <dl className="grid grid-cols-1 gap-x-8 gap-y-10 lg:pt-2">
+                                    <div className="flex flex-col items-start">
+                                        <div className="rounded-md bg-white/5 p-2 ring-1 ring-white/10">
+                                            <InboxStackIcon aria-hidden="true" className="h-6 w-6 text-white" />
+                                        </div>
+                                        <dt className="mt-4 font-semibold text-gray-50">Non-SCPS Emails</dt>
+                                        <dd className="mt-2 leading-7 text-gray-200">
+                                            Due to certain restrictions, we ask that you use a non-SCPS email.
+                                        </dd>
                                     </div>
-                                    <dt className="mt-4 font-semibold text-gray-50">No spam</dt>
-                                    <dd className="mt-2 leading-7 text-gray-200">
-                                        We respect your privacy.
-                                    </dd>
-                                </div>
-                            </dl>
+                                    <div className="flex flex-col items-start">
+                                        <div className="rounded-md bg-white/5 p-2 ring-1 ring-white/10">
+                                            <HandRaisedIcon aria-hidden="true" className="h-6 w-6 text-white" />
+                                        </div>
+                                        <dt className="mt-4 font-semibold text-gray-50">No spam</dt>
+                                        <dd className="mt-2 leading-7 text-gray-200">
+                                            We respect your privacy.
+                                        </dd>
+                                    </div>
+                                </dl>
+                            </div>
                         </div>
-                    </div>
-                    <div className="pt-16">
-                        <span className="flex text-5xl font-bold justify-center text-gray-50 mb-4" id="sponsor">Sponsor</span>
-                        <div className="flex flex-col gap-y-8 mx-8 lg:mx-16">
-                            <p className="text-lg justify-center text-center font-bold text-gray-100">Our success quite simply depends on you!</p>
-                            <p className="text-lg justify-center text-gray-50">Kilroy Robotics is continuously seeking to expand our partnerships with-in the local community. Please consider making one or more of the following contributions: </p>
-                            <ul className="text-lg justify-center text-gray-50 list-disc ml-8">
-                                <li>Tax deductible Monetary Contribution</li>
-                                <li>Donations of materials, tools, and/or services</li>
-                                <li>Mentor support</li>
-                            </ul>
+                        <div className="pt-16">
+                            <span className="flex text-5xl font-bold justify-center text-gray-50 mb-4" id="sponsor">Sponsor</span>
+                            <div className="flex flex-col gap-y-8 mx-8 lg:mx-16">
+                                <p className="text-lg justify-center text-center font-bold text-gray-100">Our success quite simply depends on you!</p>
+                                <p className="text-lg justify-center text-gray-50">Kilroy Robotics is continuously seeking to expand our partnerships with-in the local community. Please consider making one or more of the following contributions: </p>
+                                <ul className="text-lg justify-center text-gray-50 list-disc ml-8">
+                                    <li>Tax deductible Monetary Contribution</li>
+                                    <li>Donations of materials, tools, and/or services</li>
+                                    <li>Mentor support</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </>
-  )
+        </>
+    )
 }

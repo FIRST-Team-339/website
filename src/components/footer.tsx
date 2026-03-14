@@ -30,7 +30,7 @@ const sponors = [
     {
         name: "Lockheed Martin",
         href: "https://www.lockheedmartin.com/en-us/index.html",
-        logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Lockheed_Martin_logo.svg/1280px-Lockheed_Martin_logo.svg.png",
+        logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Lockheed_Martin_logo_%282%29.svg/3840px-Lockheed_Martin_logo_%282%29.svg.png",
         height: 8
     },
     {
@@ -92,7 +92,7 @@ export default function Footer() {
                         </div>
                     </div>
                     <div className="col-span-2 mx-auto mt-4 lg:mt-0">
-                        <h3 className="flex w-full text-white text-2xl justify-center font-semibold">We <Image src={PixelatedHeart} alt="Pixelated Heart Icon" className="h-8 w-8 mx-1"/> our sponsors!</h3>
+                        <h3 className="flex w-full text-white text-2xl justify-center font-semibold">We <Image src={PixelatedHeart} alt="Pixelated Heart Icon" className="h-8 w-8 mx-1" /> our sponsors!</h3>
                         <div className="mt-16 grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-4 gap-x-12 gap-y-8">
                             {sponors.map((sponsor) => (
                                 <Link key={sponsor.name} href={sponsor.href} className="flex justify-center">
